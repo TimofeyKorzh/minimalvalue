@@ -130,7 +130,7 @@ const AdornedButton = (props) => {
         <p>{Math.round(10.8*RUB)}k {" < "} x {" < "} {Math.round(15.6*RUB)}k - хорошая жизнь, ипотека на 5 лет, путешествия</p>
         <p>x {" > "} {Math.round(15.6*RUB)}k - достаточно хорошая жизнь, ипотека на 2 года, машина бизнес класса, девушка</p>
         <p></p>
-        <p><i>Сделано <a href="https://github.com/TimofeyKorzh">Монетой</a>, для канала <a href="https://t.me/lovedeathtransformers">Alex Wortega</a></i></p>
+        <p><i>Сделано <a href="https://monetka.name">Монетой</a>, для канала <a href="https://t.me/lovedeathtransformers">Alex Wortega</a></i></p>
         
         
     </div>
