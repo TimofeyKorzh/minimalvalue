@@ -89,7 +89,7 @@ const AdornedButton = (props) => {
     redirect: 'follow'
   };
   function getCurrency(){
-  return fetch("https://freecurrencyapi.net/api/v2/latest?apikey=74697630-9bb4-11ec-ab75-37843d4875b0", requestOptions)
+  return fetch("https://freecurrencyapi.net/api/v2/latest?apikey=ELbA5YiN4ktDBLkTjFmqS3rx7mZlXTwrS4Y6fH0h", requestOptions)
     .then(function(response){
       return response.json();
     })
