@@ -88,28 +88,17 @@ const AdornedButton = (props) => {
     method: 'GET',
     redirect: 'follow'
   };
-  function getCurrency(){
-  return fetch("https://freecurrencyapi.net/api/v2/latest?apikey=ELbA5YiN4ktDBLkTjFmqS3rx7mZlXTwrS4Y6fH0h", requestOptions)
-    .then(function(response){
-      return response.json();
-    })
-    .then(function(result){
-      console.log(result);
-      setRub(result.data)
 
-    })
-  }
-  
 
   useEffect(() => {
 
-    fetch("https://freecurrencyapi.net/api/v2/latest?apikey=ELbA5YiN4ktDBLkTjFmqS3rx7mZlXTwrS4Y6fH0h", requestOptions)
+    fetch("https://api.currencyapi.com/v3/convert?apikey=74697630-9bb4-11ec-ab75-37843d4875b0&date=2022-03-07&value=1&currencies=RUB", requestOptions)
     .then(function(response){
       return response.json();
     })
     .then(function(result){
       console.log(result);
-      setRub(result.data.RUB)
+      setRub(result.data.RUB.value)
 
     })
   
