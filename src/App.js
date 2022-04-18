@@ -92,7 +92,7 @@ const AdornedButton = (props) => {
 
   useEffect(() => {
 
-    fetch("https://api.currencyapi.com/v3/convert?apikey=74697630-9bb4-11ec-ab75-37843d4875b0&date=2022-03-07&value=1&currencies=RUB", requestOptions)
+    fetch("https://api.currencyapi.com/v3/latest?apikey=DLiY9BRrZHRKE51b0KvuYwImfC7XmSpN9K7XkrSB", requestOptions)
     .then(function(response){
       return response.json();
     })
