@@ -10,7 +10,7 @@ const TITLE = 'Нищета';
 function App() {
 
   const [RUB, setRub] = useState(109);
-  const inflation_rate = 1.28;
+  const inflation_rate = 1.12;
 
 
 
